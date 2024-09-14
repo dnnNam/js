@@ -1,0 +1,373 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+/* chia layout */
+.super{
+    display: flex ;
+}
+
+/*  bên trái */
+.left{
+    /* border: 3px solid black; */
+    width: 50%;
+    padding-right: 4rem;
+    background-color: #fafafa;
+}
+
+.Total__title{
+    display: flex;
+    justify-content: space-between;  
+    padding-top: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    margin-bottom: 5rem;
+}
+
+.title__1{
+    padding-left: 7rem;
+}
+.nav__link{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.nav__link__1{
+    padding-left: 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.title__2{
+    padding-left: 15rem;
+    
+}
+
+.title__4{
+    padding-right: 4rem;
+}
+/* phần văn bản 1  */
+.name__tag{
+    padding-top: 4rem;
+    text-align: center;
+    padding-right: 7rem;
+}
+
+.title__author{
+    font-size: 6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    padding-right: 2.5rem;
+    color: black;
+}
+
+.deltail__author{
+    padding-right: 7.5rem;
+    font-weight: 100;
+}
+/*  đoạn mô tả đầu tiên  */
+.dct__one{
+    padding-top: 7rem;
+    padding-left: 11.5rem;
+    line-height: 3rem;
+}
+
+.element__one{
+    display: inline-block;
+    color: black;
+    font-weight: 900
+    ;
+}
+
+/* link */
+.nav-infor-list{
+    display: flex;
+    padding-left: 10rem;
+    font-family: "Roboto", sans-serif;
+}
+.nav-infor-element{
+    padding-left: 2rem;
+    
+}
+.nav-infor-element_1{
+    list-style-type: none;
+    
+}
+.nav-infor-element_2{
+    margin-left: 3rem;
+   
+}
+/* cac link  */
+.infor-block{
+    padding-left: 17.5rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.infor-block p{
+    margin-bottom: 1.5rem;
+}
+
+/*  */
+.nav-infor-list{
+    display: flex;
+    padding-left: 11.5rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 2rem;
+}
+.nav-infor-element{
+    padding-left: 2rem;
+}
+.nav-infor-element_1{
+    list-style-type: none;
+}
+.nav-infor-element_2{
+    margin-left: 3rem;
+    
+}
+.nav-infor-link:visited{
+    color: rgb(79, 75, 75);
+}
+.list-infor{
+    margin-bottom: 12rem;
+}
+
+
+
+/*  */
+.nav-infor-link:visited{
+    color: rgb(79, 75, 75);
+}
+.list-infor{
+    margin-bottom: 12rem;
+}
+
+.nav-infor-link{
+    color: black;
+    text-decoration: none;
+}
+/* gioi thieu */
+
+.gioithieu{
+    margin-top: 30rem;
+}
+.gioithieu_block{
+    padding-left: 8.5rem;
+}
+.gioithieu_title{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.gioithieu_title_name{
+    letter-spacing: 1rem;
+    display: inline-block;
+}
+.gioithieu_content p{
+    font-weight: 300;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    line-height: 4rem;
+}
+.gioithieu_content{
+    padding-right: 14rem;
+}
+
+/* đường dẫn   */
+.link__items{
+    display: flex;
+    padding-left: 8rem;
+    padding-top: 2rem;
+}
+
+.link__block{
+    text-decoration: none;
+    color: black;
+}
+
+.icon__1{
+    padding-left: 1rem;
+}
+
+
+/* đoạn 3 */
+.kynang{
+    margin-top: 30rem;
+}
+.kynang_block{
+    padding-left: 8.5rem;
+}
+.kynang_title{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.kynang_title_name{
+    letter-spacing: 1rem;
+    display: inline-block;
+}
+.kynang_content p{
+    font-weight: 300;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    line-height: 4rem;
+}
+
+.kynang_content{
+    padding-right: 14rem;
+}
+
+/* hoc van  */
+.kinhnghiem{
+    margin-top: 30rem;
+}
+.kinhnghiem_block{
+    padding-left: 8.5rem;
+}
+.kinhnghiem_title{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.kinhnghiem_title{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.kinhnghiem_title_name{
+    letter-spacing: 1rem;
+    display: inline-block;
+}
+.kinhnghiem_content p{
+    font-weight: 300;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    line-height: 3rem;
+}
+.kinhnghiem_content{
+    padding-right: 14rem;
+    margin-bottom: 2rem;
+}
+.kinhnghiem_content_spe{
+    font-style: italic;
+}
+
+/* thanh tich */
+.thanhtich{
+    margin-top: 30rem;
+}
+.thanhtich_block{
+    padding-left: 8.5rem;
+}
+.thanhtich_title{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.thanhtich_title_name{
+    letter-spacing: 1rem;
+    display: inline-block;
+}
+.thanhtich_content p{
+    font-weight: 300;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    line-height: 4rem;
+}
+
+.thanhtich_content{
+    padding-right: 14rem;
+}
+
+/* lien he */
+.lienhe{
+    margin-top: 30rem;
+}
+.lienhe_block{
+    padding-left: 8.5rem;
+}
+.lienhe_title{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.lienhe_title_name{
+    letter-spacing: 1rem;
+    display: inline-block;
+}
+.lienhe_content p{
+    font-weight: 300;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    line-height: 4rem;
+}
+.lienhe_content{
+    padding-right: 14rem;
+}
+.nav_list_lienhe_element{
+    line-height: 3rem;
+}
+.nav_list_lienhe_block{
+    list-style-type: none;
+}
+.nav_list_lienhe_link{
+    font-family: "Roboto", sans-serif;
+    color: rgb(84, 84, 84);
+}
+
+/*  bên phải  */
+.right{
+    /* border: 3px solid red; */
+    width: 50%;
+    /* position: relative; */
+
+}   
+
+.super__img{
+    height: 100%;
+    background-color: rgb(120, 158, 140);
+    position: fixed;
+    width: 50%;
+}    
+.img__block{
+    background-image: url("./Screenshot\ 2024-08-07\ 164008.png");
+    height: 100vh;
+    /* position: absolute;
+    background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 28rem;
+    background-position:center;
+}
+
+.right_button{
+    position: fixed;
+    right: 6rem;
+    top: 2rem;
+}
+.right_button_content{
+    padding: 1rem 5.5rem;
+    outline: none;
+    background-color: black;
+    font-size: 1.7rem;
+    transition: 0.4s;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+.right_button_content:hover{
+    background-color:  white;
+    color: black;
+}
+
+
+
+
+

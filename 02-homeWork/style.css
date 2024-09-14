@@ -1,0 +1,92 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+.content{
+    color: green;
+    text-align: center;
+}
+.title{
+    color: hotpink;
+    text-align: center;
+}
+
+.special-content{
+    background-color: pink;
+    margin-bottom: 2rem;
+}
+
+.special-content-1{
+    background-color: khaki;
+    padding-bottom: 0rem;
+}
+/* .total_link{
+    padding-bottom: 5rem;
+} */
+
+.link__ne a{
+    margin-bottom: 3rem;
+    color: white;
+    background-color: black;
+}
+
+.link__ne :hover{
+    color: yellow;
+    background-color: red;
+}
+
+.content__1{
+    margin-top: 1rem;
+    padding-bottom: 2rem ;
+}
+
+.para__one{
+    font-style: italic;
+    color: black;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.para__two{
+    font-style: italic;
+    color: red;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.para__three{
+    font-style: italic;
+    color: green;
+    text-align: center;
+}
+.container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.content__0{
+    margin-bottom: 4rem;
+}
+
+
+/* .linking{
+   
+    color: white;
+    background-color: black;
+}
+
+.linking :hover{
+    color: yellow;
+    background-color: red;
+} */
+
+

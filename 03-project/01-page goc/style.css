@@ -1,0 +1,648 @@
+/* reset css  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+/* ----------------------------------------------------------------------------------------- */
+.container{
+    border: 1px solid red;
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: #fafafaac;
+
+}
+
+.super{
+    background-color: #fafafa;
+    /* position: relative; */
+}
+
+
+/* phần đầu tiên mordern mindful Therpary */
+.partFixed{
+    margin-top: 3rem;
+    background-color: #fafafa;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.partOne{
+    border: 1px solid blue;
+    display: flex;
+    /* padding: 0 3rem ; */
+    
+    
+    margin-bottom: 3rem; 
+    
+}
+
+.right{
+    border: 1px solid hotpink;
+    width: 50%;
+    
+}
+
+.left{
+    border: 1px solid brown;
+    width: 50%;
+}
+
+.oneRight__para{
+    border: 1px solid green;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    
+}
+
+.oneLeft__para{
+    border: 1px solid red;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: right;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.line__Modern{
+    display: block;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+
+}
+
+.line__Sanders{
+    display: block;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+/* xử phần đường thẳng  */
+.boundary{
+    
+    color: black;
+    /* margin: 0 3rem; */
+}
+/* các link */
+.partTwo{
+    
+    border: 1px solid goldenrod;
+    margin-top: 3rem;
+    /* padding: 1rem 1rem; */
+    padding: 3rem 3rem;
+}
+
+.bottom{
+    border: 1px solid blue;
+}
+
+.nav{
+    border: 1px solid black;
+    /* margin: 0 3rem;   */
+
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__items{
+    list-style-type: none;
+}
+
+.nav__links{
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* phần xử lí hình một  */
+.casourel{
+    border: 1px solid red;
+    /* margin-top: 15rem; */
+}
+
+
+
+.card__block{
+    border: 1px solid green;
+    /* margin: 0 11rem; */
+    overflow: hidden;
+    background-image: url("./hình1.png");
+    height: 65rem;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+.background-img{
+    position: absolute;
+    border: 1px solid white;
+    width: 89.1rem;
+    height: 31.6rem;
+    margin-top: 21rem;
+    /* đánh ra giữa  */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%  , -50%);
+    margin-top: 30rem
+    
+}
+
+.img-para__1{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center; 
+    margin-top: 6rem;
+    color:  whitesmoke;
+    word-spacing: 0.5rem;   
+    
+}
+
+.img-para__2{
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+    font-size: 8rem;
+}
+
+.fa-solid{
+    color: white;
+    padding-left: 45rem;
+    font-size: 5rem;
+    position: absolute;
+    top: 125%;
+    margin-top: 10rem;
+    
+}
+
+.boundary__one{
+    margin-top: 10rem;
+}
+
+
+.para-aboutMe{
+    border: 1px solid blue;
+    display: flex;
+    padding: 3rem 3rem;
+    margin-top: 10rem;
+    justify-content: space-between;
+}
+
+.aboutMe__Right{
+    border: 1px solid brown;
+    width: 40%;
+    
+}
+
+.aboutMe__Left{
+    border: 1px solid green;
+    width: 60%;
+    padding-left: 2rem;
+    height: 100%;
+}
+/* xử lí đoạn văn bản  */
+.title__AboutMe{
+    color: rgba(0, 0, 0, 0.701);
+    font-weight: 500;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
+.para-aboutMe__title-one{
+    
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: 300;
+}
+
+.para-aboutMe__title-two{
+    
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+/* xử lí bức hình thứ 2 */
+
+.img2-card{
+    border: 1px solid blue;
+    background-image: url("./hình\ 2.png");
+    height: 44.5rem;
+    /* width: 44rem; */
+    background-size: cover;
+    overflow: hidden;
+    
+}
+/* phần link read more */
+.links{
+    padding-left: 5rem ;
+    
+}
+.link__read{
+    text-decoration: none;
+    color: black;
+}
+
+.link__read:hover{
+    color: aqua;
+}
+
+/* phần các đoan văn bản  */
+.totalParagraph{
+    padding: 3rem 3rem;
+    border:  1px solid hotpink;
+    /* margin-right: 4rem; */
+    padding-top: 5rem;
+}
+
+.Specializing{
+    border: 1px solid greenyellow;
+    font-size: 4rem;
+}
+
+.super__threePara{
+    border: 1px solid red;
+    /* padding: 2rem 2rem; */
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: 10rem; */
+    justify-content: start;
+    margin-top: 8rem;
+}
+/* anxiety */
+.paraAnxiety{
+    border: 1px solid burlywood;
+    /* margin-right: 10rem; */
+}
+
+.anxiety-title{
+    color: rgba(0, 0, 0, 0.676);
+    font-weight: 550;
+    font-size: 3rem;
+}
+
+.boundary__anxiety{
+    padding-right: 13rem;
+    padding-top: 2rem;
+
+}
+
+.anxiety-desc{
+    padding-top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 200;
+}
+/* Depression */
+.paraDepression{
+    border: 1px solid greenyellow;
+    margin-left: 8.5rem;
+}
+
+.Depression-title{
+    color: rgba(0, 0, 0, 0.676);
+    font-weight: 550;
+    font-size: 3rem;
+}
+
+.boundary__Depression{
+    padding-top: 2rem;
+    padding-right: 8rem;
+}
+
+.Depression-desc{
+    padding-top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 200;
+}
+/* relationship */
+
+.paraRelationships{
+    border: 1px solid hotpink;
+    margin-left: 8.5rem;
+}
+
+.paraRelationships{
+    border: 1px solid greenyellow;
+}
+
+.Relationships-title{
+    color: rgba(0, 0, 0, 0.676);
+    font-weight: 550;
+    font-size: 3rem;
+}
+
+.boundary__Relationships{
+    /* padding-right: 4rem; */
+    padding-top: 2rem;
+}
+
+
+.Relationships-desc{
+    padding-top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 200;
+}
+/* ----------------------------------------------------------- */
+.super__threePara__two{
+    border: 1px solid red;
+    /* padding: 2rem 2rem; */
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: 10rem; */
+    justify-content: start;
+    margin-top: 8rem;
+}
+/* Couples Therapy */
+.paraCouplesTherapy{
+    border: 1px solid burlywood;
+    /* margin-right: 10rem; */
+}
+
+.CouplesTherapy-title{
+    color: rgba(0, 0, 0, 0.676);
+    font-weight: 550;
+    font-size: 3rem;
+}
+
+.boundary__CouplesTherapy{
+    /* padding-right: 13rem; */
+    padding-top: 2rem;
+
+}
+
+.CouplesTherapy-desc{
+    padding-top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 200;
+}
+/* Trauma */
+.paraTrauma{
+    border: 1px solid greenyellow;
+    margin-left: 8.5rem;
+}
+
+.Trauma-title{
+    color: rgba(0, 0, 0, 0.676);
+    font-weight: 550;
+    font-size: 3rem;
+}
+
+.boundary__Trauma{
+    padding-top: 2rem;
+    padding-right: 5rem;
+}
+
+.Trauma-desc{
+    padding-top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 200;
+}
+
+
+/* AdolescentTherapy */
+
+.paraAdolescentTherapy{
+    border: 1px solid hotpink;
+    margin-left: 8.5rem;
+}
+
+.paraAdolescentTherapy{
+    border: 1px solid greenyellow;
+}
+
+.AdolescentTherapy-title{
+    color: rgba(0, 0, 0, 0.676);
+    font-weight: 550;
+    font-size: 3rem;
+}
+
+.boundary__AdolescentTherapy{
+    /* padding-right: 4rem; */
+    padding-top: 2rem;
+}
+
+
+.AdolescentTherapy-desc{
+    padding-top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 200;
+}
+
+/* links__totalpara  phần read more*/
+.links__totalpara{
+    padding-top: 3rem;
+}
+.link__read__totalpara{
+    text-decoration: none;
+    color: black;
+}
+
+.link__read__totalpara:hover{
+    color: rgba(0, 255, 255, 0.411);
+}
+
+/* phần contact me */
+
+.superContactMe{
+   
+    padding-left: 3rem;
+    
+}
+.para__contactMe{
+    /* border: 1px solid brown; */
+}
+
+.title__contactMe{
+    font-size: 4rem;
+}
+
+.total__contactMe{
+    /* border: 2px solid purple; */
+    padding-top: 2rem;
+    display: flex;
+}
+/* ----------------------------------------------------- */
+.left__contactMe{
+    border: 2px solid greenyellow;
+    width: 50%;
+
+}
+
+.line__desc{
+    font-weight: 200;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 3rem;
+}
+
+/* xử lí hình  */
+.carousrel__contactMe{
+    border: 1px solid goldenrod;
+    
+}
+.card__block_contactMe{
+    background-image: url("./hình\ 3.png");
+    width: 39.6rem ;
+    height: 50rem;
+    background-size: cover;
+}
+/* ------------------------------------------------------------ */
+.right__contactMe{
+    border: 2px solid hotpink;
+    width: 50%;
+    
+}
+
+.line__Sanders__2{
+    padding-left: 0.7rem;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.oneLeft__contactMe{
+    font-family: "Roboto Condensed", sans-serif; 
+    color: black;
+    font-weight: 200; 
+    padding-left: 0.7rem;
+}
+
+.phone{
+    display: block;
+    margin-top: 2rem;
+}
+
+/* xử lí các icon */
+.totalIcon{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 35rem;
+    /* padding: 0 3rem; */
+    padding-top: 2rem ;
+}
+
+
+/* phần cái nút */
+
+.total__button{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 5rem;
+}
+
+.button-one{
+    padding-top: 3rem;
+    padding-left: 0.7rem;
+}
+
+.button-one__input{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    text-indent: 1.5rem;
+}
+
+.button-one__input:hover{
+    border-bottom: 2px solid black;
+    text-indent: 1.5rem;
+}
+
+/*  */
+.button-two{
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.button-two__input{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    text-indent: 1.5rem;
+}
+
+.button-two__input:hover{
+    border-bottom: 2px solid black;
+    text-indent: 1.5rem;
+}
+
+/*  */
+.button-three{
+    padding-top: 3rem;
+    padding-left: 0.7rem;
+}
+
+.button-three__input{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 35.6rem;
+    text-indent: 1.5rem;
+}
+
+.button-three__input:hover{
+    border-bottom: 2px solid black;
+    text-indent: 1.5rem;
+}
+
+/*  */
+
+.button-four{
+    padding-top: 3rem;
+}
+.button-four__detail{
+    padding-top: 3 rem;
+    padding-left: 0.7rem;
+    
+}
+
+.form-control{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 35.6rem;
+    height: 15rem;
+    text-indent: 1.5rem;
+    max-width: 35.6rem;
+    max-height: 15rem;
+    min-height: 15rem;
+    
+}
+
+
+
+.form-control:hover{
+    border-bottom: 2px solid black;
+    text-indent: 1.5rem;
+}
+/* cái button */
+.btn-demo{
+    border: 1px solid hotpink;
+    position: relative;
+    color: hotpink;
+    background-color: transparent;
+    outline: none;
+    margin-left: 15rem;
+    padding: 1.5rem 4rem;
+}
+

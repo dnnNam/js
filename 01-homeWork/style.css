@@ -1,0 +1,52 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.first__Character{
+    color: red;
+    font-size: 3rem;
+}
+
+.sencond__Character{
+    color: red;
+    font-size: 3rem;
+}
+
+.sup__class{
+    background-color: gray;
+    padding-bottom: 3rem;
+    
+    
+}
+
+.sub__Class{
+     padding-left: 1rem;
+}
+
+.total_tag{
+    padding-left: 1rem;
+}
+
+.total_tag1{
+    padding-bottom: 1rem;
+}
+
+.sup1__class{
+    bottom: 3rem;
+    padding-left: 3rem;
+}
+
+.class_2{
+    padding-bottom: 0.5rem;
+}

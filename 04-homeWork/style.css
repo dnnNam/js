@@ -1,0 +1,133 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+.container{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* title */
+.title{
+    background-color: gray;
+    padding-bottom: 2rem;
+}
+
+/* option */
+
+.nav__list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 1rem;
+    background-color: blue;
+    padding: 1.5rem 1.5rem;
+}
+.nav__items{
+    padding-left: 1rem;
+    
+}
+/* chia layoout  */
+
+.ancentor{
+    display: flex;
+}
+
+.super{
+    width: 30%;
+}
+
+.superParagraph{
+    /* border: 3px solid blue; */
+    width: 70%;
+}
+/*  link*/
+.nav__1{
+    /* border: 3px solid black; */
+}
+
+.nav__2{
+    /* border: 3px solid red; */
+}
+
+.nav__list__1{
+    padding-left: 2rem;
+    background-color: yellow;
+    padding-bottom: 3rem ;
+}
+
+.nav__list__2{
+    padding-left: 2rem;
+    background-color: gray;
+    padding-bottom: 3rem;
+}
+
+.letter{
+    color: white;
+}
+/*  đoạn văn */
+.paragraph__one{
+    /* border: 3px solid purple; */
+    padding-top: 2rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+.paragraph__two{
+    /* border: 3px solid orange; */
+    padding-top: 4rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+/* hai đoạn cuối cùng */
+.lastParagraph{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    width: 100%;
+    padding-left: 37rem;
+}
+
+.paragraph__three{
+    /* border: 3px solid greenyellow; */
+    background-color: green;
+    width: 50%;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+.paragraph__four{
+    /* border: 3px solid hotpink; */
+    background-color: red;
+    width: 50%;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    padding-left: 5rem;
+}
+/*  footer */
+.footer{
+    /* border: 3px solid blanchedalmond; */
+    padding: 2rem 2rem;
+    background-color: blue;
+}
+
+.detail{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+
+
