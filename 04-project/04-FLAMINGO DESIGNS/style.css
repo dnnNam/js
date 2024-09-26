@@ -1,0 +1,518 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    transition: opacity 1s ease; /* Hiệu ứng chuyển mờ trong 1.5 giây */
+    opacity: 1;
+}
+/* ---------------------------------------------------------------------------------------- */
+.container{
+    max-width: 132rem;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    padding: 0;
+    background-color: #fafafa;
+    
+}
+
+/* ---------------------------- xử lý thanh taskBar---------------------------------------- */
+.taskBar{
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5rem 2.5rem;
+}
+
+/* cái thanh search */
+.search{
+    display: flex;
+    position: relative;
+}
+
+.icon1{
+    
+    color: rgb(127, 112, 61);
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    font-size: 1.5rem;
+    transform: translateY(-50%);
+    
+}
+
+.search-input{
+    border: none;
+    padding: 1rem 3.5rem;
+    border-radius: 0px;
+    font-size: 1.5rem;
+    color: rgb(127, 112, 61);
+    background-color: #fafafa;
+    width: 17rem;
+    margin-left: 10rem;
+}
+
+.search-input:hover{
+    border: 1px solid rgb(127, 112, 61);
+    
+}
+
+.search-input:focus{
+    font-size: 1.5rem;
+    color: rgb(127, 112, 61);
+    outline: none;
+    outline-offset: none;
+    box-shadow: none;
+    border: 1px solid rgb(127, 112, 61);
+}
+
+input::placeholder{
+    color: rgb(127, 112, 61) !important;
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif; 
+} 
+/* các cái link */
+
+.nav{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 50rem;
+    margin-right: 4rem;
+    padding-top: 0.8rem;
+}
+
+.nav__links{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(127, 112, 61);
+}
+
+.nav__links:hover{
+    color: rgba(0, 0, 0, 0.683);
+}
+/* xử lí phần log in  */
+.taskBarIcon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login{
+    width: 10rem;
+    display: flex;
+    position: relative;
+}
+
+.icon2{
+    color: rgb(127, 112, 61);
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+.login-text{
+    padding-top: 0.9rem;
+    color: rgb(127, 112, 61);
+    padding-left: 3rem;
+    font-family: "Roboto Condensed", sans-serif; 
+}
+
+/* xử lí cái cart  */
+
+.cart{
+    
+    padding-top: 0.9rem;
+}
+
+.icon-shopping{
+    color: rgb(127, 112, 61);
+}
+
+/* chỉnh phần background */
+.background{
+    height: 70rem;
+    width: 100%;
+}
+.card-block{
+    background-image: url("./Phong-ngu-con-3.jpg");
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: calc(100%);
+    background-color: transparent;
+    position: relative;
+    background-size: cover;
+}
+
+.card-background{
+    /* border: 1px solid green; */
+    width: 48rem;
+    height: 22rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    
+}
+
+/* đoan mô tả  */
+.card-content{
+    border: 1px solid black;
+    margin: 2.5rem 1rem;
+    
+}
+
+.text-flamigo{
+    text-align: center;
+    color: rgb(127, 112, 61);
+    font-size: 5rem;
+    font-family: "Roboto Condensed", sans-serif; 
+    font-weight: 400;
+}
+
+.hr-content{
+    border: 1px solid  rgba(0, 0, 0, 0.877) ;
+}
+
+.hr{
+    margin: 0 5rem;
+}
+
+.desc-hand{
+    color: rgb(127, 112, 61);
+    letter-spacing: 0.8rem;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif; 
+}
+
+/* shop  */
+.shop{
+    /* border: 1px solid blue; */
+    padding-bottom: 15rem;
+}
+
+.title-shop{
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: rgb(127, 112, 61);
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0.5rem; 
+}
+
+.card-carousel{
+    /* border: 1px solid blue; */
+    width: 96rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.card__block{
+    /* border: 1px solid hotpink; */
+    width: 28rem;
+    height: 39.1rem;
+    margin-top: 3rem;
+    
+}
+
+
+.img{
+    display: block;
+    height: 28rem;
+    width: 28rem;
+    /* border: 1px solid green; */
+    
+}
+
+/* décs */
+.product-decs{
+    /* border: 1px solid green; */
+    width: 28rem;
+    height: 4.3rem;
+    text-align: center;
+    color: rgb(127, 112, 61);
+    font-family: "Roboto Condensed", sans-serif;
+    margin-right: 3rem;
+}
+
+/* button */
+.btn{
+    width: 10.6rem;
+    height: 3.9rem;
+    display: block;
+    border-radius: 0;
+    margin-left: 8.5rem;
+    margin-top: 1rem;
+    top: 0;
+    right: 0;
+    transition: 0.3s;
+    position: relative;
+    background: transparent;
+    border: 1px solid black;
+    z-index: 1;
+    font-weight: 300;
+    color: black;
+    overflow: hidden;
+}
+
+.btn::after{
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    content: "";
+    transition:  0.4s ; /* Chuyển động mượt hơn */
+    
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn:hover::after{
+    left: 0px;
+    width: 100%;
+}
+/* phần about  */
+
+.about{
+    /* border: 2px solid green; */
+    /* width: 132rem; */
+    height: 58.1rem;
+    background-color: rgb(127, 112, 61);
+    padding-top: 2rem;
+}
+
+.title-about{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.75rem;
+    color: white;
+    background-color: transparent;
+    margin-top: 8rem;
+    margin-right: 4rem;
+}
+
+.decs-about{
+    text-align: center;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    color: white;
+   
+}
+
+/* các icon  */
+.total__iconAbout{
+    display: flex;
+    justify-content: space-around;
+    width: 50rem;
+    height: 15rem;
+    /* border: 1px solid green; */
+    margin-left: 36rem;
+    margin-top: 5rem;
+}
+
+
+
+.icon1-img-about{
+    display: block;
+    height: 5rem;
+    width: 5.5rem;
+    
+}
+
+.decs-icon-about{
+    color: rgba(255, 255, 255, 0.651);  
+    font-size: 1.2rem;
+}
+
+.decs-icon-about_1{
+    color: rgba(255, 255, 255, 0.651);  
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* phần background cuối */
+.last__background{
+    height: 70rem;
+    width: 100%;
+}
+.last__card-block{
+    background-image: url("./last__background.png");
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: calc(100%);
+    background-color: transparent;
+    position: relative;
+    background-size: cover;
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.091) , #00000090);
+    
+}
+/* contact me */
+.contact-me{
+    /* border: 1px solid green; */
+    padding-bottom: 10rem;
+}
+
+.title-contact-me{
+    color:rgba(127, 112, 61, 0.699);
+    text-align: center;
+    margin-top: 10rem;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+}
+
+.decs-contact-me{
+    color:rgb(127, 112, 61);
+    text-align: center;
+    margin-top: 4rem;
+    word-spacing: 0.5rem;
+}
+/* form  */
+
+.form{
+    /* border: 1px solid black; */
+    width: 50rem;
+    height: 37.2rem;
+    margin: 0 auto;
+    
+}
+
+.nameDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+/* phần email và subject */
+.phone-email-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.form-control{
+    width: 23.8rem;
+    height: 4.1rem;
+    border: 1px solid rgb(127, 112, 61);
+    border-radius: 0;
+}
+
+.message{
+    width: 48.9rem;
+    height: 9.2rem;
+    margin-left: 0.2rem;
+    margin-top: 1rem;
+}
+
+.form-control:focus{
+    outline: none;
+    outline-offset: none;
+    box-shadow: none;
+    border: 1px solid rgb(127, 112, 61);
+    background-color: rgba(71, 58, 16, 0.525);
+}
+/* button submit*/
+.button-submit{
+    margin-top: 5rem;
+}
+
+.btn-submit{
+    width: 20.4rem;
+    height: 4rem;
+    display: block;
+    border-radius: 0;
+    margin-left: 8.5rem;
+    margin-top: 1rem;
+    top: 0;
+    right: 0%;
+    left: 41%;
+    transition: 0.3s;
+    position: relative;  
+    background: transparent;
+    border: transparent;
+    z-index: 1;
+    font-weight: 300;
+    color: white;
+    overflow: hidden;
+    background-color:rgb(127, 112, 61);
+
+    
+}
+
+.btn-submit::after{
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    content: "";
+    transition:  0.4s ; /* Chuyển động mượt hơn */
+    
+}
+
+.btn-submit:hover{
+    color: white;
+}
+
+.btn-submit:hover::after{
+    left: 0px;
+    width: 100%;
+}
+
+.notification{
+    margin-top: 1rem;
+}
+/* lastPart */
+.lastPart{
+    /* border: 1px solid red; */
+    /* width: 132rem; */
+    height: 31.4rem;
+    background-color: rgb(127, 112, 61);
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.detailLastPart{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.arrow{
+    margin-right: 3rem;
+}
+
+.top{
+    margin-right: 2.5rem;
+    color: rgba(255, 255, 255, 0.715);
+}
+
+.detail-decs{
+    margin-top: 3rem;
+    margin-right: 2.5rem;
+    color: rgba(255, 255, 255, 0.71);
+    line-height: 3rem;
+}

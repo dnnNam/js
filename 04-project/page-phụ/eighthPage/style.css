@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    transition: opacity 1s ease; /* Hiệu ứng chuyển mờ trong 1.5 giây */
+    opacity: 1;
+}
+
+.container{
+    max-width: 132rem;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    padding: 0;
+    background-color: #fafafa;
+    
+}
+
+/* ---------------------------- xử lý thanh taskBar---------------------------------------- */
+.taskBar{
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5rem 2.5rem;
+    border-bottom: 1px solid  rgb(127, 112, 61);
+}
+
+/* cái thanh search */
+.search{
+    display: flex;
+    position: relative;
+}
+
+.icon1{
+    
+    color: rgb(127, 112, 61);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 1.5rem;
+    transform: translateY(-50%);
+    
+}
+
+.search-input{
+    border: none;
+    padding: 1rem 3.5rem;
+    border-radius: 0px;
+    font-size: 1.5rem;
+    color: rgb(127, 112, 61);
+    background-color: #fafafa;
+    width: 17rem;
+    margin-left: 10rem;
+}
+
+.search-input:hover{
+    border: 1px solid rgb(127, 112, 61);
+    
+}
+
+.search-input:focus{
+    font-size: 1.5rem;
+    color: rgb(127, 112, 61);
+    outline: none;
+    outline-offset: none;
+    box-shadow: none;
+    border: 1px solid rgb(127, 112, 61);
+}
+
+input::placeholder{
+    color: rgb(127, 112, 61) !important;
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif; 
+} 
+/* các cái link */
+
+.nav{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 50rem;
+    margin-right: 4rem;
+    padding-top: 0.8rem;
+}
+
+.nav__links{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(127, 112, 61);
+}
+
+.nav__links:hover{
+    color: rgba(0, 0, 0, 0.683);
+}
+/* xử lí phần log in  */
+.taskBarIcon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login{
+    width: 10rem;
+    display: flex;
+    position: relative;
+}
+
+.icon2{
+    color: rgb(127, 112, 61);
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+.login-text{
+    padding-top: 0.9rem;
+    color: rgb(127, 112, 61);
+    padding-left: 3rem;
+    font-family: "Roboto Condensed", sans-serif; 
+}
+
+/* xử lí cái cart  */
+
+.cart{
+    
+    padding-top: 0.9rem;
+}
+
+.icon-shopping{
+    color: rgb(127, 112, 61);
+}
+
+/* phần ở dưới*/
+.super{
+    max-width: 89rem;
+    height: 91.3rem;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.title-firstPart{
+    color: rgb(85, 75, 41);
+}
+.home_link{
+    text-decoration: none;
+    color:#554B29;
+}
+
+.link__firstPart{
+    color:#554B29; 
+    text-decoration: none;
+}
+.link{
+    margin-bottom: 2rem;
+}
+
+/* .link{
+    margin-top: 0.4rem;
+} */
+
+/* phần ở dưới  */
+.second-part{
+    /* border: 1px solid green; */
+    margin-top: 4rem;
+    display: flex;
+    
+}
+
+.right{
+    margin-left: 6rem;
+}
+
+.card{
+    width: 50rem;
+    height: 50rem;
+    border: none;
+    background-color: #fafafa;
+}
+
+.img-card{
+    display: block;
+    border: none;
+}
+
+/* chữ */
+.title-secondPart{
+    color:#554B29;
+    font-family: "Roboto Condensed", sans-serif; 
+    word-spacing: 0.6rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.desc-pro{
+    color: #554B29;
+    font-family: "Roboto Condensed", sans-serif; 
+    line-height: 4rem;
+    font-weight: 200;
+}
+
+/* nut bấm  */
+.quantity{
+    border-radius: 0;
+    width: 7rem;
+    height: 3.7rem;
+    border: 1px solid #554B29;
+}
+
+.quantity:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid#554B29;
+}
+.form-label{
+    color: #554B29;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+/* cái button */
+.addToCart{
+    display: flex;
+    margin-top: 2rem;
+}
+.btn-add{
+    width: 30.5rem;
+    height: 4.1rem;
+    background-color: #554B29;
+    border: 1px solid #554B29;
+    color:  white;
+    top: 0;
+    right: 0;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-add::after{
+    width: 0%;
+    height: 100%;
+    background-color:#d9ab1579;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    content: "";
+    transition:  0.4s ; /* Chuyển động mượt hơn */
+    
+}
+
+.btn-add:hover::after{
+    left: 0px;
+    width: 100%;
+}
+
+/* button mua */
+.btn-buy{
+    margin-top: 2rem;
+    width: 35.6rem;
+    height: 4.1rem;
+    background-color: black;
+    color: white;
+    top: 0;
+    right: 0;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-buy::after{
+    width: 0%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.295);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    content: "";
+    transition:  0.4s ;
+}
+
+.btn-buy:hover::after{
+    left: 0px;
+    width: 100%;
+}
+/* trái tim */
+.heart{
+    width: 4rem;
+    height: 4.1rem;
+    border: 1px solid #554B29 ;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.fa-regular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: #554B29; 
+}
+
+/* đoạn mô tả  */
+.decs-right{
+    margin-top: 3rem;
+}
+
+.title-decs-right{
+    color: #554B29; 
+    font-family: "Roboto Condensed", sans-serif; 
+    font-weight: 100;
+    font-size: small;
+}
+
+.decs-right{
+    color: #554B29; 
+    font-family: "Roboto Condensed", sans-serif; 
+    font-weight: 100;
+    font-size: small;
+}
+
+.hr{
+    color: #554B29;
+    margin-top: 3rem;
+}
+
+.decs-left{
+    color: #554B29; 
+    font-family: "Roboto Condensed", sans-serif; 
+    font-weight: 100;
+    font-size: small;
+    margin-top: 6rem;
+}
+
+.card-small{
+    width: 4.3rem;
+    height: 4.3rem;
+}
+
+.card-list{
+    margin-top: 2rem;
+}
+
+.btn-change{
+    border: none;
+}
+
+.btn-change:hover{
+    border: 1px solid #554B29;
+}
+
+/* lastPart */
+.lastPart{
+    width: 132rem;
+    height: 31.4rem;
+    background-color: rgb(127, 112, 61);
+    margin: 0 auto;
+}
+
+.detailLastPart{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.arrow{
+    margin-right: 3rem;
+}
+
+.top{
+    margin-right: 2.5rem;
+    color: rgba(255, 255, 255, 0.715);
+}
+
+.detail-decs{
+    margin-top: 3rem;
+    margin-right: 2.5rem;
+    color: rgba(255, 255, 255, 0.71);
+    line-height: 3rem;
+}
